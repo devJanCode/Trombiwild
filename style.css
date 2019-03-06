@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: gray;
 }
 
 /*NavBar*/
@@ -22,7 +23,9 @@ header li {
 	justify-content: center;
 
 }
-#groupe{
+
+
+#groupe {
 	margin: 10px;
 }
 
@@ -30,10 +33,11 @@ header li {
 footer ul{
    
    display: flex;
-   justify-content: space-around;
+   justify-content: center;
    flex-wrap: wrap;
    list-style: none;
-
+   width: 100%;
+   padding: 0;
 
  }
 .btn_info{
@@ -52,7 +56,7 @@ footer ul{
  }
 
  footer img {
- 	margin: 2em;
+ 	margin: 1em;
 
  }
 
