@@ -6,6 +6,7 @@ body {
 }
 
 /*_____________________NavBar____________________________*/
+
 header nav a{
 	margin: .2em .5em;
 	display: block;
@@ -27,7 +28,6 @@ header li {
 #accueil div{
 	display: flex;
 	justify-content: center;
-
 }
 
 #accueil h1 {
@@ -38,6 +38,7 @@ header li {
 
 #accueil {
 	margin: 10px;
+  max-width: 300px;
 }
 /* ______________________Profil______________________*/
 .ligne{
@@ -69,8 +70,81 @@ header li {
 footer {
 	color: white;
 }
+
+/*# groupe*/
+#groupe div{
+  display: flex;
+  justify-content: center;
+}
+
+#groupe{
+  margin: 10px;
+}
+
+
+/*    ---------------------------Groupe    --------------------------------------*/
+
+.groupe img{
+  max-width: 100%;
+  max-height: 100%;
+  position:relative;
+}
+
+.groupe {
+  background-image: url("img/Pele-Mele.jpg");
+  width: 100%;
+}
+
+.groupe h1{
+  font-weight: bold;
+  color:  white;
+  font-size: 75px;
+  text-align: center;
+}
+  
+.groupe .photos a{
+  width: 89%;
+  color: #F76C6C;
+  position: absolute;
+  -right: 0.5%;
+  display: block;
+  -margin: auto;
+  bottom: 10px; 
+  font-size: 18px;
+  text-decoration: none;
+  -border:red 1px solid;
+  text-align:center;
+  background-color: rgba(26, 0, 0, 0.5);
+}
+
+.groupe  .center ul{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none; 
+}
+
+.groupe .nav-item{
+  width: 10%;
+  height: 10%;
+}
+
+.groupe .nav-item img{
+  min-width: 40px;
+  min-height: 40px;
+}
+
+.nav-pills .nav-link.active{
+  background-color: transparent;
+}
+
+
+
+
+/*    -----------------------------Footer   -------------------------------------*/
+
+
+
 footer ul{
-   
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
@@ -82,17 +156,31 @@ footer ul{
  footer ul li{
  	margin: 1em;
  }
+
 .btn_info{
 	display: block;
 	width: 500px;
 }
+
+.wcs_contact {
+	font-size: 2em;
+}
+
+ .wcs-social-media a{
+ 	display: block;
+}
+footer {
+  background-color: black;
+  padding: 10px;
+}
+
  footer {
  	background-color: black;
  	padding: 10px;
  	
  }
 
- .wcs_contact {
+.wcs_contact {
 	font-size: 2em;
 }
 
@@ -114,3 +202,124 @@ footer .love {
  footer .love span {
  	color: #f76c6c;
  }
+
+
+footer a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.wcs_contact {
+  font-size: 2em;
+
+}
+
+/* _________________________________formulaire__________________________________
+
+/*_________________panoramique______*/
+
+.panoramique
+{
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  border: 2px solid #F76C6C;
+  border-radius: 5px;
+
+}
+
+
+
+
+
+
+
+
+/*__________________table___________*/
+/* CSS used here will be applied after bootstrap.css */
+/* Style inputs, select elements and textareas */
+.formulaire input[type=text],
+.formulaire input[type=tel],
+.formulaire input[type=email],
+.formulaire select,
+.formulaire textarea{
+  width: 100%;
+  padding: 2%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style the label to display next to the inputs */
+.formulaire label {
+  padding: 4%;
+  display: inline-block;
+}
+.formulaire .label_centre
+{
+  display: flex;
+  justify-content: center;
+}
+
+/* Style the submit button */
+.formulaire input[type=submit] {
+  background-color: #F76C6C;
+  color: white;
+  padding: 1% 8%;
+  border-radius: 4px;
+  margin: auto;
+}
+.submit_row
+{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+/* Style the container */
+/*.contact_us
+{
+  margin-top: 10%;
+  }*/
+
+.formulaire {
+  border-radius: 5px;
+  background: url('img/WCS_logo.png') no-repeat 15% 70% #f2f2f2;
+  padding: 20px;
+}
+/* Style the text */
+.formulaire h1,
+.formulaire p
+{
+  text-align: center;
+  margin-top: 10%;
+}
+
+
+ /* _________________________________fin de formulaire__________________________________*/
+
+
+
+ footer a:hover {
+ 	color: white;
+ 	text-decoration: none;
+ }
+
+footer .love {
+	text-align: center;
+}
+ footer .love span {
+ 	color: #f76c6c;
+ }
+
+
+.wcs_contact {
+  font-size: 2em;  
+}
+
+
+
+
+
+/* CSS 
+>>>>>>> groupe
+>>>>>>> 95f8308ad95b69608477a3731f73e85a88229f6f
+>>>>>>> 1a8c7861d48ff66ad78e88933fae1e4b9b6d6792
