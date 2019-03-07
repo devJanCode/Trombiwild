@@ -39,33 +39,7 @@ header li {
 #accueil {
 	margin: 10px;
 }
-/* ______________________Profil______________________*/
-.ligne{
-	display: flex;
-	justify-content: left;
-   flex-wrap: wrap;
-}
 
-#profil-photo img{
-	margin: 1em;
-	/*max-width: 70%;
-	max-height: 70%*/
-}
-
-#profil-liens ul{
-	list-style: none;
-	padding: 0;
-	margin: 1em;
-	display: flex;
-
-
-}
-#profil-text {
-	margin: 1em;
-}
-#profil-liens ul li{
-	margin: 1em;
-}
 
 /*_______________________footer______________________*/
 footer {
