@@ -21,7 +21,7 @@ header li {
 
 }
 .navbar-dark .navbar-nav .active{
-	background-color: #138496; 
+	background-color: #138496;
 }
 
 /*# ____________________accueil________________________*/
@@ -101,7 +101,7 @@ footer {
   font-size: 75px;
   text-align: center;
 }
-  
+
 .groupe .photos a{
   width: 89%;
   color: #F76C6C;
@@ -109,7 +109,7 @@ footer {
   -right: 0.5%;
   display: block;
   -margin: auto;
-  bottom: 10px; 
+  bottom: 10px;
   font-size: 18px;
   text-decoration: none;
   -border:red 1px solid;
@@ -120,7 +120,7 @@ footer {
 .groupe  .center ul{
   display: flex;
   justify-content: space-around;
-  list-style-type: none; 
+  list-style-type: none;
 }
 
 .groupe .nav-item{
@@ -177,7 +177,7 @@ footer {
  footer {
  	background-color: black;
  	padding: 10px;
- 	
+
  }
 
 .wcs_contact {
@@ -220,14 +220,19 @@ footer a:hover {
 
 .panoramique
 {
-  display: flex;
-  justify-content: center;
   max-width: 100%;
+  max-height: 100%;
   border: 2px solid #F76C6C;
   border-radius: 5px;
-
 }
 
+.panoramique img
+{
+   display:block;
+  width:100%;
+  height:100%;
+  margin: auto;
+}
 
 
 
@@ -312,14 +317,14 @@ footer .love {
 
 
 .wcs_contact {
-  font-size: 2em;  
+  font-size: 2em;
 }
 
 
 
 
 
-/* CSS 
+/* CSS
 >>>>>>> groupe
 >>>>>>> 95f8308ad95b69608477a3731f73e85a88229f6f
 >>>>>>> 1a8c7861d48ff66ad78e88933fae1e4b9b6d6792
