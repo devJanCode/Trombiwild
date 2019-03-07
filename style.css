@@ -1,3 +1,7 @@
+
+
+
+
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
@@ -5,16 +9,21 @@ body {
   background-color: #8C9DEF;
 }
 
+<<<<<<< HEAD
 /*_____________________NavBar____________________________*/
+=======
+/*    ----------------------------NavBar           ------------------------*/
+>>>>>>> 95f8308ad95b69608477a3731f73e85a88229f6f
 header nav a{
-	margin: .2em .5em;
-	display: block;
-	width: 150px;
+  margin: .2em .5em;
+  display: block;
+  width: 150px;
 }
 li .active {
 	background-color: orange;
 }
 header li {
+<<<<<<< HEAD
 	max-width: 300px;
 	text-align: center;
 
@@ -41,6 +50,8 @@ header li {
 
 #accueil {
 	margin: 10px;
+=======
+  max-width: 300px;
 }
 /* ______________________Profil______________________*/
 .ligne{
@@ -68,27 +79,119 @@ header li {
 	margin: 1em;
 }
 
+<<<<<<< HEAD
 /*_______________________footer______________________*/
 footer {
 	color: white;
 }
+=======
+/*# groupe*/
+#groupe div{
+  display: flex;
+  justify-content: center;
+}
+
+#groupe{
+  margin: 10px;
+}
+
+
+/*    ---------------------------Groupe    --------------------------------------*/
+
+.groupe img{
+  max-width: 100%;
+  max-height: 100%;
+  position:relative;
+>>>>>>> groupe
+}
+
+.groupe {
+  background-image: url("img/Pele-Mele.jpg");
+  width: 100%;
+}
+
+.groupe h1{
+  font-weight: bold;
+  color:  white;
+  font-size: 75px;
+  text-align: center;
+}
+  
+.groupe .photos a{
+  width: 89%;
+  color: #F76C6C;
+  position: absolute;
+  -right: 0.5%;
+  display: block;
+  -margin: auto;
+  bottom: 10px; 
+  font-size: 18px;
+  text-decoration: none;
+  -border:red 1px solid;
+  text-align:center;
+  background-color: rgba(26, 0, 0, 0.5);
+}
+
+.groupe  .center ul{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none; 
+}
+
+.groupe .nav-item{
+  width: 10%;
+  height: 10%;
+}
+
+.groupe .nav-item img{
+  min-width: 40px;
+  min-height: 40px;
+}
+
+.nav-pills .nav-link.active{
+  background-color: transparent;
+}
+
+
+
+
+/*    -----------------------------Footer   -------------------------------------*/
+
+
+>>>>>>> 95f8308ad95b69608477a3731f73e85a88229f6f
 footer ul{
    
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
    list-style: none;
+<<<<<<< HEAD
    width: 100%;
 
+<<<<<<< HEAD
  }
  footer ul li{
  	margin: 1em;
 
+=======
+/*footer*/
+footer ul{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style: none;
+}
+>>>>>>> contact
+=======
+ }
+>>>>>>> groupe
+>>>>>>> 95f8308ad95b69608477a3731f73e85a88229f6f
 
 .btn_info{
   display: block;
   width: 500px;
 }
+<<<<<<< HEAD
 
 
  .wcs_contact {
@@ -102,7 +205,30 @@ footer {
   background-color: black;
   padding: 10px;
 }
+=======
 
+ footer {
+  background-color: black;
+  padding: 10px; 
+ }
+
+ footer a {  
+  color: white;
+ }
+>>>>>>> groupe
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+ footer img {
+<<<<<<< HEAD
+ 	margin: 1em;
+=======
+footer a {
+  color: white;
+}
+>>>>>>> contact
+>>>>>>> 95f8308ad95b69608477a3731f73e85a88229f6f
 
 footer a {
  	color: white;
@@ -210,4 +336,26 @@ footer a:hover {
 
 
  /* _________________________________fin de formulaire__________________________________*/
+<<<<<<< HEAD
 
+=======
+=======
+  margin: 2em;
+ }
+
+ footer a:hover {
+  color: white;
+  text-decoration: none;
+ }
+
+.wcs_contact {
+  font-size: 2em;  
+}
+
+
+
+
+
+/* CSS 
+>>>>>>> groupe
+>>>>>>> 95f8308ad95b69608477a3731f73e85a88229f6f
