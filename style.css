@@ -2,34 +2,75 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: gray;
+  background-color: #8C9DEF;
 }
 
-/*NavBar*/
+/*_____________________NavBar____________________________*/
 header nav a{
 	margin: .2em .5em;
 	display: block;
 	width: 150px;
 }
-
+li .active {
+	background-color: orange;
+}
 header li {
 	max-width: 300px;
+	text-align: center;
 
 }
+.navbar-dark .navbar-nav .active{
+	background-color: #138496; 
+}
 
-/*# groupe*/
-#groupe div{
+/*# ____________________accueil________________________*/
+#accueil div{
 	display: flex;
 	justify-content: center;
 
 }
 
-
-#groupe {
-	margin: 10px;
+#accueil h1 {
+	text-align: center;
+	font-family: 'Roboto' , sans-serif;
 }
 
-/*footer*/
+
+#accueil {
+	margin: 10px;
+}
+/* ______________________Profil______________________*/
+.ligne{
+	display: flex;
+	justify-content: left;
+   flex-wrap: wrap;
+}
+
+#profil-photo img{
+	margin: 1em;
+	/*max-width: 70%;
+	max-height: 70%*/
+}
+
+#profil-liens ul{
+	list-style: none;
+	padding: 0;
+	margin: 1em;
+	display: flex;
+
+
+}
+#profil-text {
+	margin: 1em;
+}
+#profil-liens ul li{
+	margin: 1em;
+}
+
+/*_______________________footer______________________*/
+footer {
+	color: white;
+}
 footer ul{
    
    display: flex;
@@ -39,6 +80,9 @@ footer ul{
    width: 100%;
    padding: 0;
 
+ }
+ footer ul li{
+ 	margin: 1em;
  }
 .btn_info{
 	display: block;
@@ -50,26 +94,25 @@ footer ul{
  	
  }
 
- footer a {
- 	
- 	color: white;
- }
+ .wcs_contact {
+	font-size: 2em;
+}
 
- footer img {
+ .wcs-social-media a{
+ 	display: block;
  	margin: 1em;
 
  }
-
-
+footer a {
+ 	color: white;
+ }
  footer a:hover {
  	color: white;
  	text-decoration: none;
  }
-
-.wcs_contact {
-	font-size: 2em;	
-	
+footer .love {
+	text-align: center;
 }
-   
-    
- 
+ footer .love span {
+ 	color: #f76c6c;
+ }
