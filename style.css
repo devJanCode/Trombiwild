@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: gray;
+}
+
+/*NavBar*/
+header nav a{
+	margin: .2em .5em;
+	display: block;
+	width: 150px;
+}
+
+header li {
+	max-width: 300px;
+}
+
+
+<<<<<<< HEAD
+}
+
+
+#groupe {
+	margin: 10px;
+}
+
+/*footer*/
+footer ul{
+   
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   list-style: none;
+   width: 100%;
+   padding: 0;
+=======
+
+/*footer*/
+footer ul{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style: none;
+}
+>>>>>>> contact
+
+.btn_info{
+  display: block;
+  width: 500px;
+}
+
+footer {
+  background-color: black;
+  padding: 10px;
+}
+
+<<<<<<< HEAD
+ footer img {
+ 	margin: 1em;
+=======
+footer a {
+  color: white;
+}
+>>>>>>> contact
+
+footer img {
+  margin: 2em;
+}
+
+
+footer a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.wcs_contact {
+  font-size: 2em;
+
+}
+
+/* _________________________________formulaire__________________________________
+
+/*_________________panoramique______*/
+
+.panoramique
+{
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  border: 2px solid #F76C6C;
+  border-radius: 5px;
+
+}
+
+
+
+
+
+
+
+
+/*__________________table___________*/
+/* CSS used here will be applied after bootstrap.css */
+/* Style inputs, select elements and textareas */
+.formulaire input[type=text],
+.formulaire input[type=tel],
+.formulaire input[type=email],
+.formulaire select,
+.formulaire textarea{
+  width: 100%;
+  padding: 2%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style the label to display next to the inputs */
+.formulaire label {
+  padding: 4%;
+  display: inline-block;
+}
+.formulaire .label_centre
+{
+  display: flex;
+  justify-content: center;
+}
+
+/* Style the submit button */
+.formulaire input[type=submit] {
+  background-color: #F76C6C;
+  color: white;
+  padding: 1% 8%;
+  border-radius: 4px;
+  margin: auto;
+}
+.submit_row
+{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+/* Style the container */
+/*.contact_us
+{
+  margin-top: 10%;
+  }*/
+
+.formulaire {
+  border-radius: 5px;
+  background: url('img/WCS_logo.png') no-repeat 15% 70% #f2f2f2;
+  padding: 20px;
+}
+/* Style the text */
+.formulaire h1,
+.formulaire p
+{
+  text-align: center;
+  margin-top: 10%;
+}
+
+
+ /* _________________________________fin de formulaire__________________________________*/
