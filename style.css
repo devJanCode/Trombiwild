@@ -2,7 +2,6 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #8C9DEF;
 }
 
 /*_____________________NavBar____________________________*/
@@ -41,29 +40,51 @@ header li {
   max-width: 300px;
 }
 /* ______________________Profil______________________*/
-.ligne{
-	display: flex;
-	justify-content: left;
-   flex-wrap: wrap;
+/*Apparence de la page*/
+.profils
+{
+  background-color: #8C9DEF;
+  padding-top: 5%;
+}
+.profils h1
+{
+  padding-bottom: 5%;
+  text-align: center;
+  color: rgb(244, 107, 109);
 }
 
-#profil-photo img{
-	margin: 1em;
+/* Apparence de l'image*/
+.profils .photo_de_profil img
+{
+  max-width: 100%;
+  max-height: 100%;
+  border: 2px solid white;
 }
 
-#profil-liens ul{
-	list-style: none;
-	padding: 0;
-	margin: 1em;
-	display: flex;
-
-
+/* Apparence du bloc photo*/
+.profils .photo_de_profil
+{
+  position: relative;
 }
-#profil-text {
-	margin: 1em;
+.profils .photo_de_profil h3
+{
+  position: absolute;
+  bottom: -1%;
+  background-color: white;
+  padding-left: 30%;
+  padding-right: 31%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  color: rgb(244, 107, 109);
 }
-#profil-liens ul li{
-	margin: 1em;
+
+/*Apparence de la liste*/
+.profils ul
+{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-top: 5%;
 }
 
 /*_______________________footer______________________*/
