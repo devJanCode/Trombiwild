@@ -24,20 +24,28 @@ header li {
 }
 
 /*# ____________________accueil________________________*/
+#accueil {
+  background-color: #8C9DEF;
+  width: 100%;
+  margin: 0;
+}
 #accueil div{
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
+
 }
 
 #accueil h1 {
-	text-align: center;
-	font-family: 'Roboto' , sans-serif;
+  text-align: center;
+  font-family: 'Roboto' , sans-serif;
 }
 
-
 #accueil {
-	margin: 10px;
-  max-width: 300px;
+  padding: 10px;
+}
+#accueil div{
+	display: flex;
+	justify-content: center;
 }
 /* ______________________Profil______________________*/
 /*Apparence de la page*/
