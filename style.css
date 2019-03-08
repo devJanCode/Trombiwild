@@ -39,6 +39,7 @@ header li {
 	margin: 10px;
   max-width: 300px;
 }
+
 /* ______________________Profil______________________*/
 /*Apparence de la page*/
 .profils
@@ -86,7 +87,6 @@ header li {
   list-style-type: none;
   margin-top: 5%;
 }
-
 /*_______________________footer______________________*/
 footer {
 	color: white;
