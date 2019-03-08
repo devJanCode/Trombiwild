@@ -47,6 +47,7 @@ header li {
 	display: flex;
 	justify-content: center;
 }
+
 /* ______________________Profil______________________*/
 /*Apparence de la page*/
 .profils
@@ -94,7 +95,6 @@ header li {
   list-style-type: none;
   margin-top: 5%;
 }
-
 /*_______________________footer______________________*/
 footer {
 	color: white;
